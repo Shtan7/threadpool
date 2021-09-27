@@ -1,0 +1,1 @@
+Simple lightweight threadpool that can handle arbitrary and container tasks. Check out test.cpp to see how to work with it.
