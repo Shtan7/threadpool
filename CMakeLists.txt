@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.21 FATAL_ERROR)
 
 project(threadpool LANGUAGES CXX)
 
-set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
-
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
