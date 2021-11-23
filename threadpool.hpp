@@ -31,7 +31,7 @@ namespace pool
 	};
 
 	// represents single task in threadpool queue
-	struct task_base abstract
+	struct task_base
 	{
 		std::shared_ptr<std::promise<std::any>> promise;
 

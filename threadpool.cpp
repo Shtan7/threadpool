@@ -51,7 +51,7 @@ void pool::threadpool::decrease_workers_number(uint32_t num)
 {
 	if (num > workers_state.size())
 	{
-		throw std::exception{ "decrease number is bigger than the number of workers" };
+		throw std::runtime_error{ "decrease number is bigger than the number of workers" };
 	}
 	
 	for (int j = 0; j < num; j++)
